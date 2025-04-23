@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GOGOMarket</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f8fafc;
+    }
+
+    header {
+      background-color: #0f172a;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      padding: 30px;
+    }
+
+    .card {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      overflow: hidden;
+      text-align: center;
+      padding: 15px;
+    }
+
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    .card h3 {
+      margin: 10px 0 5px;
+    }
+
+    .card p {
+      color: #64748b;
+      margin: 0 0 10px;
+    }
+
+    .card a {
+      display: inline-block;
+      padding: 10px 16px;
+      background-color: #22c55e;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+
+    .card a:hover {
+      background-color: #16a34a;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #e2e8f0;
+      color: #475569;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>GOGOMarket</h1>
+    <p>Belanja mudah langsung via WhatsApp!</p>
+  </header>
+
+  <section class="products">
+    <!-- Produk 1 -->
+    <div class="card">
+      <img src="Sepatu.jpg" alt="Produk A">
+      <h3>Sepatu Keren</h3>
+      <p>Rp185.000</p>
+      <a href="https://wa.me/+6281371601645?text=Halo%20saya%20mau%20beli%20Produk%20A" target="_blank">Beli via WA</a>
+    </div>
+
+    <!-- Produk 2 -->
+    <div class="card">
+      <img src="Hoodie.jpg" alt="Produk B">
+      <h3>Hoodie Kece</h3>
+      <p>Rp120.000</p>
+      <a href="https://wa.me/+6281371601645?text=Halo%20saya%20mau%20beli%20Produk%20B" target="_blank">Beli via WA</a>
+    </div>
+
+    <!-- Produk 3 -->
+    <div class="card">
+      <img src="Tas.jpg" alt="Produk C">
+      <h3>Tas Edgy</h3>
+      <p>Rp95.000</p>
+      <a href="https://wa.me/+6281371601645?text=Halo%20saya%20mau%20beli%20Produk%20C" target="_blank">Beli via WA</a>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 GOGOMarket. Semua hak cipta dilindungi.
+  </footer>
+
+</body>
+</html>
